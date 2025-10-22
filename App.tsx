@@ -1,13 +1,34 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-import { Stack, Tabs, Link } from 'expo-router';
+import { StyleSheet, Text, View, ScrollView } from 'react-native';
+import React, { useState } from 'react';
 
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
+      {/* Toggle for light/dark mode */}
+
+
+      {/* Navigation bar */}
+    
+
+      {/* Hero page */}
+      <View style={styles.testDiv}></View>
+      <Text>
+        This is the hero page/landing screen
+      </Text>
+
+      {/* About Page */}
+
+
+      {/* Coding Languages */}
+
+
+      {/* Projects */}
+
+
+
+
     </View>
   );
 }
@@ -19,4 +40,15 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  testDiv: {
+    width: 10,
+    height: 10,
+    borderColor: '#f700cdff',
+    backgroundColor: '#f700cdff',
+    borderRadius: 50,
+  },
+
+
+
+  
 });
