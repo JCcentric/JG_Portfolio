@@ -43,6 +43,7 @@ const styles = StyleSheet.create({
   testDiv: {
     width: 10,
     height: 10,
+    margin: 15,
     borderColor: '#f700cdff',
     backgroundColor: '#f700cdff',
     borderRadius: 50,
@@ -50,5 +51,5 @@ const styles = StyleSheet.create({
 
 
 
-  
+
 });
